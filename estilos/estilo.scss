@@ -149,16 +149,40 @@
         .caja1{
             .titulo1{
              @extend .tituloPrincipal481px;
+            };
+            .parrafo1{
+                @extend .parrafo1481px;
+            }
+        };
+        .caja2{
+            .titulo2{
+                @extend .titulo2481px;
+            };
+            .parrafo2{
+                @extend .parrafo1481px;
+            }
+        };
+        .caja3{
+            .comentario1,.comentario2,.comentario3{
+                .parrafo3,.parrafo4,.parrafo5{
+                    @extend .caja3Parrafos;
+                }
+            }
+        };
+        .caja4{
+            .comentario4{
+                .parrafo6{
+                    @extend .parrafo6481px;
+                }
+            }
+        };
+        .caja5{
+            .titulo4{
+                @extend .titulo4481px;
             }
         }
     }
-    .caja3{
-        .comentario1,.comentario2,.comentario3{
-            .parrafo3,.parrafo4,.parrafo5{
-                @extend .caja3Parrafos;
-            }
-        }
-    }
+    
 }
  /*************************min 769px***************************/
 @media(min-width:769px){

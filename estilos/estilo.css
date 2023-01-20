@@ -1510,11 +1510,27 @@
 /**************** mobile min 480px********************/
 @media (min-width: 481px) {
   .tituloPrincipal481px, .principal .caja1 .titulo1 {
-    font-size: 9.3vw;
+    font-size: 8vw;
+    line-height: 11vh;
   }
-  .caja3Parrafos, .caja3 .comentario1 .parrafo3, .caja3 .comentario1 .parrafo4, .caja3 .comentario1 .parrafo5, .caja3 .comentario2 .parrafo3, .caja3 .comentario2 .parrafo4, .caja3 .comentario2 .parrafo5, .caja3 .comentario3 .parrafo3, .caja3 .comentario3 .parrafo4, .caja3 .comentario3 .parrafo5 {
-    font-size: 3.2vw;
+  .parrafo1481px, .principal .caja2 .parrafo2, .principal .caja1 .parrafo1 {
+    font-size: 3vw;
+  }
+  .titulo2481px, .principal .caja2 .titulo2 {
+    font-size: 7.5vw;
+  }
+  .parrafo1481px, .principal .caja2 .parrafo2, .principal .caja1 .parrafo1 {
+    font-size: 3vw;
+  }
+  .caja3Parrafos, .principal .caja3 .comentario1 .parrafo3, .principal .caja3 .comentario1 .parrafo4, .principal .caja3 .comentario1 .parrafo5, .principal .caja3 .comentario2 .parrafo3, .principal .caja3 .comentario2 .parrafo4, .principal .caja3 .comentario2 .parrafo5, .principal .caja3 .comentario3 .parrafo3, .principal .caja3 .comentario3 .parrafo4, .principal .caja3 .comentario3 .parrafo5 {
+    font-size: 2.8vw;
     height: 24vw;
+  }
+  .parrafo6481px, .principal .caja4 .comentario4 .parrafo6 {
+    font-size: 2.8vw;
+  }
+  .titulo4481px, .principal .caja5 .titulo4 {
+    font-size: 7vw;
   }
 }
 /*************************min 769px***************************/
