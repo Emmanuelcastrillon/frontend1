@@ -1512,25 +1512,29 @@
   .tituloPrincipal481px, .principal .caja1 .titulo1 {
     font-size: 6vw;
     line-height: 11vh;
+    height: 50vh;
   }
   .parrafo1481px, .principal .caja2 .parrafo2, .principal .caja1 .parrafo1 {
     font-size: 2.5vw;
+    height: 16vh;
   }
   .titulo2481px, .principal .caja2 .titulo2 {
     font-size: 6vw;
+    height: 21vh;
   }
   .parrafo1481px, .principal .caja2 .parrafo2, .principal .caja1 .parrafo1 {
     font-size: 2.7vw;
+    height: 16vh;
   }
   .caja3Parrafos, .principal .caja3 .comentario1 .parrafo3, .principal .caja3 .comentario1 .parrafo4, .principal .caja3 .comentario1 .parrafo5, .principal .caja3 .comentario2 .parrafo3, .principal .caja3 .comentario2 .parrafo4, .principal .caja3 .comentario2 .parrafo5, .principal .caja3 .comentario3 .parrafo3, .principal .caja3 .comentario3 .parrafo4, .principal .caja3 .comentario3 .parrafo5 {
     font-size: 2vw;
-    height: 24vw;
+    height: 25vw;
   }
   .parrafo6481px, .principal .caja4 .comentario4 .parrafo6 {
     font-size: 2.6vw;
   }
   .titulo4481px, .principal .caja5 .titulo4 {
-    font-size: 6vw;
+    font-size: 4vw;
   }
 }
 /*************************min 769px***************************/
