@@ -1,0 +1,37 @@
+.primeraCaja{
+    width: 100vw;
+    .imagenTenista{
+        width: 83vw;
+        height:60vh;
+        margin: 6vh 0vw 0vh 8vw;
+    };
+    .tituloPrincipal{
+        width: 83vw;
+        height: 40vh;
+        font-size: 10.5vw;
+        color:#232C50;
+        font-weight: 700;
+        margin: 10vh 0vw 0vh 8vw;
+        text-align: right;
+        line-height: 9.5vh;
+    };
+    .parrafoCaja1{
+        width: 83vw;
+        height: 13vh;
+        margin:4vh 0vw 0vh 8vw;
+        font-size: 3.5vw;
+        text-align: right;
+        font-weight: 500;
+    };
+    .botonCaja1{
+        background-color:#8B48BF;
+        width: 25vw;
+        height: 7vh;
+        border-radius: 5vh;
+        border: none;
+        color: #FFFFFF;
+        font-size: 2.5vw;
+        text-align: center;
+        margin:4vh 0vw 1vh 66vw;
+    }
+}

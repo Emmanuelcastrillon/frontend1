@@ -1,0 +1,28 @@
+.quintaCaja{
+    width: 100vw;
+    height: 55vh;
+    background-color:#3CDDF3;
+    margin: 7vh 0vw 0vh 0vw;
+    .tituloCaja5{
+        width: 67.5vw;
+        height: 30vh;
+        font-size: 8.3vw;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin: 3vh 0vw 0vh 16vw;
+        padding: 5vh 0vw 0vh 0vw;
+        text-align: center;
+        line-height: 9vh;
+    };
+    .botonCaja5{
+        background-color:#232C50;
+        width: 25vw;
+        height: 7vh;
+        border-radius: 5vh;
+        border: none;
+        color: #FFFFFF;
+        font-size: 2.5vw;
+        text-align: center;
+        margin:12vh 0vw 1vh 35vw;
+    }
+}

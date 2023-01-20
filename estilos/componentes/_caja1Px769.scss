@@ -1,0 +1,50 @@
+.caja1769px{
+    display: flex;
+    width: 90vw;
+    height:80vh;
+    margin: 5vh 0vw 0vh 4vw;
+    flex-wrap: wrap;
+    .tenista769px{
+        width: 40vw;
+        height:60vh;
+        margin:15vh 0vw 2vh 3vw;
+    };
+    .titulo1769px{
+        width:40vw;
+        height: 40vh;
+        font-size: 4vw;
+        line-height: 9vh;
+        margin: 15vh 0vw 0vh 2vw;
+        transition: 1000ms;
+        &:hover{
+            color: #3CDDF3;
+            font-size: 4.4vw
+        };
+    };
+    .parrafo1769px{
+        width: 30vw;
+        height: 7vh;
+        font-size: 1.1vw;
+        margin: -20vh 0vw 0vh 55vw;
+        font-weight: 700;
+    };
+    .formulario1769px{
+        width: 9vw;
+        height: 6vh;
+        margin:-10vh 0vw 0vh 77vw;
+        .boton1769px{
+            width: 8.5vw;
+            height: 6vh;
+            font-size: 1vw;
+            margin:0vh 0vw 0vh 0vw;
+            transition:ease-in-out 500ms;
+            &:hover{
+                color:rgb(247, 247, 5);
+                background-color: #232C50;
+                height: 8vh;
+                font-size: 1.5vw;
+                font-weight: 700;
+            }
+        }
+    }
+}

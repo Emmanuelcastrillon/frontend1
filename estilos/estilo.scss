@@ -1,0 +1,371 @@
+/***********************************mobile************************************/
+* {
+    margin: 0px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+@import "./componentes/header";
+@import"./componentes/caja1";
+@import "./recurso/varia";
+@import"./componentes/caja2";
+@import"./componentes/caja3";
+@import"./componentes/caja4";
+@import"./componentes/caja5";
+@import"./componentes/footer";
+.encabezado {
+    .navbar-expand-lg {
+        .logo1 {
+            @extend .logoEncabezado;
+        }
+        .container-fluid {
+            .navbar-brand {
+                @extend .enlace1Encabezado;
+            }
+            .navbar-toggler {
+                @extend .hamburguesa
+            }
+        }
+    };
+}
+.caja1 {
+    @extend .primeraCaja;
+    .tenista {
+        @extend .imagenTenista;
+    };
+    .titulo1 {
+        @extend .tituloPrincipal;
+    };
+    .parrafo1 {
+        @extend .parrafoCaja1;
+    };
+    .boton1 {
+        @extend .botonCaja1;
+    };
+}
+.caja2 {
+    @extend .segundaCaja;
+    .titulo2 {
+        @extend .tituloCaja2;
+    };
+    .parrafo2 {
+        @extend .parrafoCaja2;
+    }
+}
+.caja3 {
+    @extend .terceraCaja;
+    .comentario1,.comentario2,.comentario3 {
+        @extend .comentario1Caja3;
+        .subtitulo1Caja3,
+        .subtitulo2Caja3,
+        .subtitulo3Caja3 {
+            @extend .subtituloCaja3;
+            .numero1,.numero2,.numero3 {
+                @extend .numeroCaja3;
+            };
+            .subtitulo1,.subtitulo2,.subtitulo3 {
+                @extend .subti1Caja3;
+            }
+        };
+        .parrafo3,.parrafo4,.parrafo5 {
+            @extend .parrafoCaja3;
+        }
+    }
+}
+.caja4 {
+    @extend .cuartaCaja;
+    .titulo3 {
+        @extend .tituloCaja4;
+    };
+    .comentario4 {
+        @extend .comentarioCaja4;
+        .deportista {
+            @extend .imagenCaja4;
+        };
+        .nombre {
+            @extend .nombreDeportista;
+        };
+        .parrafo6 {
+            @extend .parrafoCaja4;
+        }
+    };
+    .comentario5, .comentario6{
+        @extend  .comentario5Y6caja4;
+    }   
+    .formulario2 {
+        .boton2 {
+            @extend .botonCaja4;
+        }
+    }
+}
+.caja5 {
+    @extend .quintaCaja;
+    .titulo4 {
+        @extend .tituloCaja5;
+    };
+    .formulario3 {
+        .boton3 {
+            @extend .botonCaja5;
+        }
+    }
+}
+.pieDePagina {
+    @extend .footerSitio;
+    .cajaFotter {
+        .formulario4 {
+            @extend .formularioFooter;
+            .entrada1 {
+                @extend .entradaFooter;
+            };
+            .boton4 {
+                @extend .botonFooter;
+            }
+        };
+        .enlaces {
+            @extend .enlacesFooter;
+            .navegacion2,.navegacion3 {
+                @extend .navegacion2Footer;
+                a {
+                    @extend .aEnlaces;
+                }
+            }
+        };
+        .imagenes {
+            @extend .imagenesFooter;
+            .redesSociales {
+                @extend .redesFooter;
+            }
+            .logo2 {
+                @extend .logoFooter;
+            }
+        }
+    };
+    .ultimo {
+        @extend .textoFooter;
+    }
+}
+/**************** mobile min 480px********************/
+@media(min-width:481px){
+    @import"./componentes/481px";
+    .principal{
+        .caja1{
+            .titulo1{
+             @extend .tituloPrincipal481px;
+            }
+        }
+    }
+    .caja3{
+        .comentario1,.comentario2,.comentario3{
+            .parrafo3,.parrafo4,.parrafo5{
+                @extend .caja3Parrafos;
+            }
+        }
+    }
+}
+ /*************************min 769px***************************/
+@media(min-width:769px){
+
+    @import"./componentes/caja1Px769";
+    @import"./componentes/caja2Px769";
+    @import"./componentes/caja3Px769";
+    @import"./componentes/caja4Px769";
+    @import"./componentes/caja5Px769";
+    @import"./componentes/footerPx769";
+    body{
+        .principal{
+            .caja1{
+                @extend .caja1769px;
+                .tenista{
+                    @extend .tenista769px;
+                };
+                .titulo1{
+                    @extend .titulo1769px;
+                };
+                .parrafo1{
+                    @extend .parrafo1769px;
+                };
+                .formulario1{
+                    @extend .formulario1769px;
+                    .boton1{
+                        @extend .boton1769px;
+                    }
+                }
+                
+            };
+            .caja2{
+                @extend .caja2769px;
+                .titulo2{
+                    @extend  .titulo2769px;
+                };
+                .parrafo2{
+                    @extend .parrafo2769px;
+                }
+            };
+            .caja3{
+                @extend .caja3769px;
+                .comentario1, .comentario2, .comentario3{
+                    @extend  .comentarios769px;
+                    .subtitulo1Caja3, .subtitulo2Caja3, .subtitulo3Caja3{
+                        @extend .subtituloCaja3769px;
+                        .numero1, .numero2, .numero3{
+                            @extend  .numeros769px;
+                        };
+                        .subtitulo1, .subtitulo2, .subtitulo3{
+                            @extend  .subtitulos769px;
+                        };
+                        .subtitulo2{
+                            @extend .subtitulo2769px;
+                        };
+                        .subtitulo3{
+                            @extend .subtitulo3769px;   
+                        }
+                    };
+                    .parrafo3, .parrafo4, .parrafo5{
+                        @extend  .parrafos769px;
+                    }
+                };
+                .comentario3{
+                    @extend .comentario3769px;
+                }
+            };
+            .caja4{
+                @extend .caja4769px;
+                .titulo3{
+                    @extend  .titulo3769px;
+                };
+                .comentario4, .comentario5, .comentario6{
+                    @extend  .comentariosCaja4769px;
+                    .deportista, .deportista2, .deportista3{
+                        @extend  .imagenCaja4769px; 
+                    };
+                    .nombre, .nombre2, .nombre3{
+                        @extend  .nombreCaja4769px;
+                    };
+                    .parrafo6, .parrafo7, .parrafo8{
+                        @extend  .parrafoCaja4769px;
+                    }
+                };
+                .comentario4{
+                    @extend .comentario4769px;
+                }
+                .boton2{
+                    @extend .botonCaja4769px;
+                }
+            };
+            .caja5{
+                @extend .caja5769px;
+                .titulo4{
+                    @extend  .titulo4Caja5769px;
+                };
+                .boton3{
+                    @extend  .botonCaja5769px;  
+                }
+            }
+        };
+        .pieDePagina{
+            @extend .footer769px;
+            .cajaFotter{
+                @extend  .cajaFotter769px;
+                .imagenes{
+                    @extend  .imagenesFooter769px;
+                    .redesSociales{
+                        @extend .redes769PX;
+                    };
+                    .logo2{
+                        @extend .logo2769px;
+                    }
+                };
+                .enlaces{
+                    @extend .enlacesFooter769px;
+                    .navegacion2, .navegacion3{
+                        @extend .navegacionFooter769px;
+                        a{
+                            @extend .aEnlacesFooter769px;
+                        }
+                    }
+                };
+                .formulario4{
+                    @extend .formularioFooter769px;
+                    .entrada1{
+                        @extend .entradaFooter769px;
+                    };
+                    .boton4{
+                        @extend .botonFooter769px;
+                    };
+                }
+            };
+            .ultimo{
+                @extend .textoFooter769px;
+            }
+        }
+    }
+};
+/********************min 992px***********************/
+@media(min-width:992px){
+    @import"./componentes/header992px";
+   
+    body{
+        .encabezado{
+           .navbar-expand-lg{
+            .container-fluid{
+                @extend .container-fluid992px;
+                .navbar-brand{
+                    @extend .navbar-brand992px;
+                };
+                .navbar-collapse{
+                    .navbar-nav{
+                        .nav-item{
+                            .nav-link{
+                                @extend .nav-link992px;
+                            }
+                        };
+                        .entrenamiento{
+                            .linkEntrenamiento{
+                                @extend  .linkEntrenamiento992px;
+                            }
+                        };
+                        .nav-item{
+                            .comunidad{
+                                @extend .comunidad992px;
+                            }
+                        }
+                    };
+                    .d-flex{
+                        .btn-outline-success{
+                            @extend .btn-outline-success992px;
+                        }
+                    }
+                }
+            }
+           }
+
+        }
+    }
+}
+
+    
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+

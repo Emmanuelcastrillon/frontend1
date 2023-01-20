@@ -1,0 +1,85 @@
+.container-fluid992px{
+    width: 73vw;
+    margin: 0vh 0vw 1vh 0vw;
+    .navbar-brand992px{
+        width: 7vw;
+        height: 3vh;
+        font-size: 1.1vw;
+        color:#242E52;
+        margin: 0vh 0vw 0vh 10vw;
+        line-height: 2vh;
+        text-align: center;
+        transition: ease-in-out 400ms;
+                    &:hover{
+                        color: rgb(125, 247, 4);
+                        font-size: 1.5vw; 
+                    }
+    };
+    .nav-link992px{
+        width: 7vw;
+        height: 3vh;
+        font-size: 1.1vw;
+        color:#242E52;
+        margin: 0.2vh 0vw 0vh 2vw;
+        line-height: 1vh;
+        text-align: center;
+        transition: ease-in-out 400ms;
+                    &:hover{
+                        color: rgb(125, 247, 4);
+                        font-size: 1.3vw; 
+                    }
+       
+    };
+    .linkEntrenamiento992px{
+        width: 10vw;
+        height: 4vh;
+        font-size: 1.1vw;
+        color:#242E52;
+        margin: 0vh 0vw 0vh 2vw;
+        line-height: 1vh;
+        text-align: center;
+        text-decoration: none;
+        transition: ease-in-out 400ms;
+                    &:hover{
+                        color: rgb(125, 247, 4);
+                        font-size: 1.5vw; 
+                    }
+    };
+    .comunidad992px{
+        width: 10vw;
+        height: 4vh;
+        font-size: 1.1vw;
+        color:#242E52;
+        margin: 0vh 0vw 0vh 2vw;
+        line-height: 1vh;
+        text-align: center;
+        text-decoration: none;
+        transition: ease-in-out 400ms;
+                    &:hover{
+                        color: rgb(125, 247, 4);
+                        font-size: 1.5vw; 
+                    }
+    };
+    .btn-outline-success992px{
+        background-color:#8B48BF;
+        width: 8.5vw;
+        height: 6vh;
+        border-radius: 5vh;
+        border: none;
+        color: #FFFFFF;
+        font-size: 1vw;
+        text-align: center;
+        transition: ease-in-out 500ms;
+        &:hover{
+            color:rgb(247, 247, 5);
+                background-color: #232C50;
+                height: 6.5vh;
+                font-size: 1.2vw;
+                font-weight: 700;
+        }
+        
+           
+            
+    }
+}
+

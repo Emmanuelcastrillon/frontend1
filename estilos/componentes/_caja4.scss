@@ -1,0 +1,57 @@
+.cuartaCaja{
+    width: 100vw;
+    height: 77vh;
+    margin: 10vh 0vw 0vh 0vw;
+    .tituloCaja4{
+        width:70vw;
+        height:8vh;
+        margin: 0vh 0vw 0vh 17vw;
+        color: #242E53;
+        font-size: 8.1vw;
+        font-weight: 700;
+    }
+    .comentarioCaja4{
+        width: 90vw;
+        height:40vh;
+        margin: 15vh 0vw 0vh 5vw;
+        background-color: #FAFAFA;
+        .imagenCaja4{
+            width:18vw;
+            height:15vh;
+            border-radius: 10vh;
+            margin:-6vh 0vw 0vh 35vw;
+            z-index: 0;
+        };
+        .nombreDeportista{
+            width: 20vw;
+            height: 4vh;
+            margin: 3vh 0vw 3vh 34vw;
+            text-align: center;
+            color: #3F4868;
+            font-weight: 700;
+            font-size: 3.3vw;
+        };
+        .parrafoCaja4{
+            width: 90vw;
+            height: 18vh;
+            color: #B9B9C1;
+            font-weight: 500;
+            font-size: 3.3vw;
+            text-align: center;
+        }
+    };
+    .comentario5Y6caja4{
+        display: none;
+    };
+    .botonCaja4{
+        background-color:#8B48BF;
+        width: 25vw;
+        height: 7vh;
+        border-radius: 5vh;
+        border: none;
+        color: #FFFFFF;
+        font-size: 2.5vw;
+        text-align: center;
+        margin:6vh 0vw 1vh 35vw;
+    }
+}

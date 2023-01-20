@@ -1,0 +1,64 @@
+.caja4769px{
+    display: flex;
+    flex-wrap: wrap;
+     width: 100vw;
+    height: 100vh;
+    margin: 0vh 0vw 0vh 0vw;
+    .titulo3769px{
+        width:100vw;
+        height:7vh;
+        margin: 10vh 0vw 0vh 0vw;
+        text-align: center;
+        font-size: 3vw;
+    };
+    .comentariosCaja4769px{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 33vw;
+        height: 43vh;
+        margin: 10vh 0vw 0vh 0vw;
+        background-color: #FAFAFA;
+        .imagenCaja4769px{
+            width:7vw;
+            height:14vh;
+            border-radius: 10vh;
+            margin: -6vh 0vw 0vh 13vw;
+        };
+        .nombreCaja4769px{
+            width: 8vw;
+            height: 3vh;
+            margin: 1vh 0vw 0vh 12vw;
+            font-size: 1.24vw;
+            text-align: center;
+            color: #3F4868;
+            font-weight: 700;
+        };
+        .parrafoCaja4769px{
+            width: 20vw;
+            height: 25vh;
+            color: #B9B9C1;
+            font-weight: 500;
+            font-size: 1.24vw;
+            text-align: center;
+            margin: 3vh 0vw 0vh 6.5vw;
+            line-height: 3.4vh;
+        }
+    };
+    .comentario4769px{
+        margin: 10vh 0vw 0vh 0.5vw;
+    }
+    .botonCaja4769px{
+        width: 10vw;
+        font-size: 1.2vw;
+        margin:0vh 0vw 0vh 45vw;
+        transition: ease-in-out 700ms;
+        &:hover{
+            color:rgb(247, 247, 5);
+            background-color: #232C50;
+            height: 8vh;
+            font-size: 1.5vw;
+            font-weight: 700;
+        }
+    }
+}
