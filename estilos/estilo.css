@@ -1518,6 +1518,9 @@
     font-size: 2.5vw;
     height: 16vh;
   }
+  .boton1481px, .principal .caja1 .formulario1 .boton1 {
+    width: 18vw;
+  }
   .titulo2481px, .principal .caja2 .titulo2 {
     font-size: 6vw;
     height: 21vh;
@@ -1530,11 +1533,30 @@
     font-size: 2vw;
     height: 25vw;
   }
+  .numerosCaja3481px, .principal .caja3 .comentario1 .subtitulo1Caja3 .numero1, .principal .caja3 .comentario1 .subtitulo1Caja3 .numero2, .principal .caja3 .comentario1 .subtitulo1Caja3 .numero3, .principal .caja3 .comentario1 .subtitulo2Caja3 .numero1, .principal .caja3 .comentario1 .subtitulo2Caja3 .numero2, .principal .caja3 .comentario1 .subtitulo2Caja3 .numero3, .principal .caja3 .comentario1 .subtitulo3Caja3 .numero1, .principal .caja3 .comentario1 .subtitulo3Caja3 .numero2, .principal .caja3 .comentario1 .subtitulo3Caja3 .numero3, .principal .caja3 .comentario2 .subtitulo1Caja3 .numero1, .principal .caja3 .comentario2 .subtitulo1Caja3 .numero2, .principal .caja3 .comentario2 .subtitulo1Caja3 .numero3, .principal .caja3 .comentario2 .subtitulo2Caja3 .numero1, .principal .caja3 .comentario2 .subtitulo2Caja3 .numero2, .principal .caja3 .comentario2 .subtitulo2Caja3 .numero3, .principal .caja3 .comentario2 .subtitulo3Caja3 .numero1, .principal .caja3 .comentario2 .subtitulo3Caja3 .numero2, .principal .caja3 .comentario2 .subtitulo3Caja3 .numero3, .principal .caja3 .comentario3 .subtitulo1Caja3 .numero1, .principal .caja3 .comentario3 .subtitulo1Caja3 .numero2, .principal .caja3 .comentario3 .subtitulo1Caja3 .numero3, .principal .caja3 .comentario3 .subtitulo2Caja3 .numero1, .principal .caja3 .comentario3 .subtitulo2Caja3 .numero2, .principal .caja3 .comentario3 .subtitulo2Caja3 .numero3, .principal .caja3 .comentario3 .subtitulo3Caja3 .numero1, .principal .caja3 .comentario3 .subtitulo3Caja3 .numero2, .principal .caja3 .comentario3 .subtitulo3Caja3 .numero3 {
+    width: 15vw;
+  }
   .parrafo6481px, .principal .caja4 .comentario4 .parrafo6 {
     font-size: 2.6vw;
   }
+  .titulo3481px, .principal .caja4 .titulo3 {
+    font-size: 6vw;
+    text-align: center;
+    height: 10vh;
+  }
+  .boton2481px, .principal .caja4 .formulario2 .boton2 {
+    width: 18vw;
+    margin: 6vh 0vw 1vh 40vw;
+  }
   .titulo4481px, .principal .caja5 .titulo4 {
     font-size: 4vw;
+  }
+  .boton3481px, .principal .caja5 .formulario3 .boton3 {
+    width: 18vw;
+    margin: 12vh 0vw 1vh 40vw;
+  }
+  .enlacesFooter481px, .pieDePagina .cajaFotter .enlaces .navegacion2 a, .pieDePagina .cajaFotter .enlaces .navegacion3 a {
+    font-size: 2vw;
   }
 }
 /*************************min 769px***************************/

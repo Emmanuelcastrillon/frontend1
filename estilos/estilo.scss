@@ -152,6 +152,11 @@
             };
             .parrafo1{
                 @extend .parrafo1481px;
+            };
+            .formulario1{
+                .boton1{
+                    @extend .boton1481px;
+                }
             }
         };
         .caja2{
@@ -164,6 +169,11 @@
         };
         .caja3{
             .comentario1,.comentario2,.comentario3{
+                .subtitulo1Caja3, .subtitulo2Caja3, .subtitulo3Caja3{
+                    .numero1, .numero2, .numero3{
+                        @extend .numerosCaja3481px; 
+                    }
+                };
                 .parrafo3,.parrafo4,.parrafo5{
                     @extend .caja3Parrafos;
                 }
@@ -174,11 +184,35 @@
                 .parrafo6{
                     @extend .parrafo6481px;
                 }
+            };
+            .titulo3{
+                @extend .titulo3481px;  
+            };
+            .formulario2{
+                .boton2{
+                    @extend .boton2481px;
+                }
             }
         };
         .caja5{
             .titulo4{
                 @extend .titulo4481px;
+            };
+            .formulario3{
+                .boton3{
+                    @extend .boton3481px;
+                }
+            }
+        };
+    };
+    .pieDePagina{
+        .cajaFotter{
+            .enlaces{
+                .navegacion2, .navegacion3{
+                    a{
+                        @extend .enlacesFooter481px;
+                    }
+                }
             }
         }
     }
